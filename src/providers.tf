@@ -3,26 +3,26 @@ terraform {
   required_version = ">=1.5"
 
   required_providers {
-    
+
     aws = {
-        source = "hashicorp/aws"
-        version = "~> 6.0"
+      source  = "hashicorp/aws"
+      version = "~> 6.0"
     }
 
     google = {
-        source = "hashicorp/google"
-        version = "~>6.0"
+      source  = "hashicorp/google"
+      version = "~>6.0"
     }
   }
 }
 #aws
-provider "aws"{
-    profile = var.aws_profile
-    region = var.aws_region
+provider "aws" {
+  profile = var.aws_profile
+  region  = var.aws_region
 }
 #gcp
-provider "google"{
-    project = var.gcp_project_id
-    region = var.gcp_region
+provider "google" {
+  project = var.gcp_project_id
+  region  = var.gcp_region
 }
 
