@@ -54,8 +54,8 @@ Terraform will perform the following actions:
   # azurerm_resource_group.example will be created
   + resource "azurerm_resource_group" "example" {
       + id       = (known after apply)
-      + location = "westeurope"
-      + name     = "rg-group"
+      + location = "swedencentral"
+      + name     = "rggroup"
     }
 
   # azurerm_storage_account.test will be created
@@ -74,9 +74,9 @@ Terraform will perform the following actions:
       + is_hns_enabled                     = false
       + large_file_share_enabled           = (known after apply)
       + local_user_enabled                 = true
-      + location                           = "westeurope"
+      + location                           = "swedencentral"
       + min_tls_version                    = "TLS1_2"
-      + name                               = "storagetest4321234"
+      + name                               = "stggroup"
       + nfsv3_enabled                      = false
       + primary_access_key                 = (sensitive value)
       + primary_blob_connection_string     = (sensitive value)
@@ -116,7 +116,7 @@ Terraform will perform the following actions:
       + primary_web_microsoft_host         = (known after apply)
       + public_network_access_enabled      = true
       + queue_encryption_key_type          = "Service"
-      + resource_group_name                = "rg-group"
+      + resource_group_name                = "rggroup"
       + secondary_access_key               = (sensitive value)
       + secondary_blob_connection_string   = (sensitive value)
       + secondary_blob_endpoint            = (known after apply)
@@ -214,6 +214,7 @@ Terraform will perform the following actions:
 
       + website (known after apply)
     }
+
 
 Plan: 5 to add, 0 to change, 0 to destroy.
 
