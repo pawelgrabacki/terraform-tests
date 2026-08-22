@@ -2,9 +2,9 @@
 
 #aws
 resource "aws_s3_bucket" "test" {
-  bucket_prefix = "testbucket-"
-  force_destroy = true
+  bucket = var.bucket_name
 }
 
 
 #gcp
+
