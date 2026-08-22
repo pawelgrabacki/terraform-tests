@@ -1,7 +1,9 @@
 # Terraform
 Terraform AWS & GCP and AZURE setup + Check(terraform plan)
 
-![alt text](./docs/01_Terraform.gif "Logo Title Text 1")
+![alt text](./docs/01_Terraform.gif "01_Terraform.gif")
+
+![alt text](./docs/02_Terraform.jpg "02_Terraform.jpg")
 
 ```
 Terraform used the selected providers to generate the following execution plan. Resource
