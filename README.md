@@ -1,6 +1,5 @@
 # Terraform
 Terraform AWS & GCP setup + Check
-IAM in both GCP and AWS was configured via each provider's CLI
 
 ![alt text](./docs/01_Terraform.gif "Logo Title Text 1")
 
