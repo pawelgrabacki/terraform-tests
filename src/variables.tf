@@ -33,14 +33,19 @@ variable "tags" {
 
 variable "aws_bucket_name" {
   type        = string
-  description = "default bucket "
+  description = "default bucket"
   default     = "aws_pawel-tf-test-2026-a7x3"
 }
 
 variable "gcp_bucket_name" {
   type        = string
-  description = "default bucket "
+  description = "default bucket"
   default     = "gcp_pawel-tf-test-2026-a7x3"
 
+}
+variable "azure_bucket_name" {
+  type        = string
+  description = "default bucket"
+  default     = "azure_pawel-tf-test-2026-a7x3"
 }
 
