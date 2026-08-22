@@ -4,6 +4,7 @@
 
 variable "aws_profile" {
   type = string
+  default = "Terraform"
 }
 variable "aws_region" {
   type    = string
