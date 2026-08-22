@@ -16,7 +16,7 @@ resource "google_storage_bucket" "test" {
 #azure
 resource "azurerm_resource_group" "example" {
   name     = "rg-group"
-  location = "West Europe"
+  location = "Sweden Central"
 }
 
 resource "azurerm_storage_account" "test" {
