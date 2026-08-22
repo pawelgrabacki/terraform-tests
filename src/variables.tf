@@ -3,7 +3,7 @@
 #aws
 
 variable "aws_profile" {
-  type = string
+  type    = string
   default = "Terraform"
 }
 variable "aws_region" {
@@ -31,9 +31,16 @@ variable "tags" {
   }
 }
 
-variable "bucket_name" {
+variable "aws_bucket_name" {
   type        = string
   description = "default bucket "
+  default     = "aws_pawel-tf-test-2026-a7x3"
 }
 
+variable "gcp_bucket_name" {
+  type        = string
+  description = "default bucket "
+  default     = "gcp_pawel-tf-test-2026-a7x3"
+
+}
 
