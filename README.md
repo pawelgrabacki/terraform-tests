@@ -1,5 +1,5 @@
 # Terraform
-AWS & GCP setup
+Terraform AWS & GCP setup + Check
 
 ![alt text](./docs/01_Terraform.gif "Logo Title Text 1")
 
