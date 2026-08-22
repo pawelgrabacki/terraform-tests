@@ -4,8 +4,8 @@ Terraform AWS & GCP and AZURE setup + Check(terraform plan)
 ![alt text](./docs/01_Terraform.gif "Logo Title Text 1")
 
 ```
-Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the
-following symbols:
+Terraform used the selected providers to generate the following execution plan. Resource
+actions are indicated with the following symbols:
   + create
 
 Terraform will perform the following actions:
@@ -55,7 +55,7 @@ Terraform will perform the following actions:
   + resource "azurerm_resource_group" "example" {
       + id       = (known after apply)
       + location = "swedencentral"
-      + name     = "rggroup"
+      + name     = "rggroup0axf42c"
     }
 
   # azurerm_storage_account.test will be created
@@ -76,7 +76,7 @@ Terraform will perform the following actions:
       + local_user_enabled                 = true
       + location                           = "swedencentral"
       + min_tls_version                    = "TLS1_2"
-      + name                               = "stggroup"
+      + name                               = "stggroup0x43343"
       + nfsv3_enabled                      = false
       + primary_access_key                 = (sensitive value)
       + primary_blob_connection_string     = (sensitive value)
@@ -116,7 +116,7 @@ Terraform will perform the following actions:
       + primary_web_microsoft_host         = (known after apply)
       + public_network_access_enabled      = true
       + queue_encryption_key_type          = "Service"
-      + resource_group_name                = "rggroup"
+      + resource_group_name                = "rggroup0axf42c"
       + secondary_access_key               = (sensitive value)
       + secondary_blob_connection_string   = (sensitive value)
       + secondary_blob_endpoint            = (known after apply)
@@ -214,7 +214,6 @@ Terraform will perform the following actions:
 
       + website (known after apply)
     }
-
 
 Plan: 5 to add, 0 to change, 0 to destroy.
 
