@@ -33,7 +33,7 @@ variable "tags" {
 
 variable "bucket_name" {
   type        = string
-  description = "default bucket name"
+  description = "default bucket "
 }
 
 
