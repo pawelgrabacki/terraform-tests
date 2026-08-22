@@ -4,10 +4,8 @@ Terraform AWS & GCP and AZURE setup + Check(terraform plan)
 ![alt text](./docs/01_Terraform.gif "Logo Title Text 1")
 
 ```
-PS D:\_01\Git_repo\terraform-tests\src> terraform plan                                   
-              
-Terraform used the selected providers to generate the following execution plan. Resource
-actions are indicated with the following symbols:
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the
+following symbols:
   + create
 
 Terraform will perform the following actions:
@@ -17,7 +15,7 @@ Terraform will perform the following actions:
       + acceleration_status         = (known after apply)
       + acl                         = (known after apply)
       + arn                         = (known after apply)
-      + bucket                      = "aws_pawel-tf-test-2026-a7x3"
+      + bucket                      = "awspaweltftest2026a7x3"
       + bucket_domain_name          = (known after apply)
       + bucket_namespace            = (known after apply)
       + bucket_prefix               = (known after apply)
@@ -57,7 +55,7 @@ Terraform will perform the following actions:
   + resource "azurerm_resource_group" "example" {
       + id       = (known after apply)
       + location = "westeurope"
-      + name     = "storage-rg"
+      + name     = "rg-group"
     }
 
   # azurerm_storage_account.test will be created
@@ -118,7 +116,7 @@ Terraform will perform the following actions:
       + primary_web_microsoft_host         = (known after apply)
       + public_network_access_enabled      = true
       + queue_encryption_key_type          = "Service"
-      + resource_group_name                = "storage-rg"
+      + resource_group_name                = "rg-group"
       + secondary_access_key               = (sensitive value)
       + secondary_blob_connection_string   = (sensitive value)
       + secondary_blob_endpoint            = (known after apply)
@@ -181,7 +179,7 @@ Terraform will perform the following actions:
       + has_legal_hold                    = (known after apply)
       + id                                = (known after apply)
       + metadata                          = (known after apply)
-      + name                              = "mycontainer"
+      + name                              = "azrpaweltftest2026a7x3"
       + resource_manager_id               = (known after apply)
       + storage_account_id                = (known after apply)
       + url                               = (known after apply)
@@ -195,7 +193,7 @@ Terraform will perform the following actions:
       + force_destroy               = false
       + id                          = (known after apply)
       + location                    = "EU"
-      + name                        = "gcp_pawel-tf-test-2026-a7x3"
+      + name                        = "gcppaweltftest2026a7x3"
       + project                     = (known after apply)
       + project_number              = (known after apply)
       + public_access_prevention    = (known after apply)
