@@ -15,12 +15,12 @@ resource "google_storage_bucket" "test" {
 
 #azure
 resource "azurerm_resource_group" "example" {
-  name     = "rg-group"
+  name     = "rggroup"
   location = "Sweden Central"
 }
 
 resource "azurerm_storage_account" "test" {
-  name                     = "stg-group"
+  name                     = "stggroup"
   resource_group_name      = azurerm_resource_group.example.name
   location                 = azurerm_resource_group.example.location
   account_tier             = "Standard"
