@@ -1,9 +1,29 @@
 # Terraform
-Terraform AWS & GCP and AZURE setup + Check(terraform plan)
 
+
+
+Personal Terraform practice repo  
+  
+    
+
+
+
+
+
+##  Update 2026-08-22 
+
+#### Screenshots
 ![alt text](./docs/01_Terraform.gif "01_Terraform.gif")
 
 ![alt text](./docs/02_Terraform.jpg "02_Terraform.jpg")
+
+#### Activity
+
+
+  - Created Terraform AWS & GCP and AZURE setup + Check(terraform plan)
+  - Tested this setup in cloud proivers(with some hickups but it worked correctly)
+
+
 
 ```
 Terraform used the selected providers to generate the following execution plan. Resource
